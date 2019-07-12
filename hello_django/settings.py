@@ -33,7 +33,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', default='foo')
 
 DEBUG = int(os.environ.get('DEBUG', default=0))
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '192.168.99.100']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '192.168.99.100', 'dazzling-yosemite-53578.herokuapp.com']
 
 # Application definition
 
